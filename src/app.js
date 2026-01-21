@@ -5,6 +5,10 @@ app.get('/', (req, res) => {
   res.send('Hola mundo con Node y Git');
 });
 
+app.get('/saludo', (req, res) => {
+    res.send('Hola desde una nueva feature');
+  });
+  
 app.listen(3000, () => {
   console.log('Servidor corriendo en puerto 3000');
 });
