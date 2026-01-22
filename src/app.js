@@ -6,8 +6,8 @@ app.get('/', (req, res) => {
 });
 
 app.get('/saludo', (req, res) => {
-    res.send('Hola desde una nueva feature');
-  });
+  res.send('Hola saludo desde PR');
+});
   
 app.listen(3000, () => {
   console.log('Servidor corriendo en puerto 3000');
