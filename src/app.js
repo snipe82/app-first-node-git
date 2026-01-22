@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-  res.send('Hola saludo LOCAL');
+  res.send('Hola saludo DESDE GITHUB POR SEGUNDA VEZ');
 });
 
 app.get('/saludo', (req, res) => {
