@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-  res.send('Hola saludo VERSION 2, MEEEEEEEE UUUUUUU, Y AHORA PROBAMOS EL PUSH AND PULL');
+  res.send('Hola saludo LOCAL');
 });
 
 app.get('/saludo', (req, res) => {
