@@ -6,7 +6,8 @@ app.get('/', (req, res) => {
 });
 
 app.get('/saludo', (req, res) => {
-  res.send('Hola saludo desde PR');
+  const nombre = req.query.nombre || 'Mundo';
+  res.send(`Hola ${nombre}`);
 });
   
 app.listen(3000, () => {
